@@ -14,5 +14,6 @@ let state;
 //symbol => unique
 
 
-//object
+//object 
+
 console.log(typeof age)
