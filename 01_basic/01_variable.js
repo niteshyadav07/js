@@ -9,4 +9,4 @@ console.log(accountEmail)
 prefer not to use var
 because of issue in block scope and functional scope
 */
-console.table([accountEmail,accountId,accountpass,accountcity])
+console.table([accountEmail,accountId,accountpass,accountcity] )
