@@ -17,3 +17,4 @@ let state;
 //object 
 
 console.log(typeof age)
+console.log(typeof state)
