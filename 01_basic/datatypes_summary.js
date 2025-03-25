@@ -33,3 +33,8 @@ const myfunction =function(){
 }
 
 console.log(typeof bigbum);
+
+
+//************************ ********************** */ *
+
+// stack (primitive), heap(Non-primitive)
