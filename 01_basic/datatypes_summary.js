@@ -38,3 +38,22 @@ console.log(typeof bigbum);
 //************************ ********************** */ *
 
 // stack (primitive), heap(Non-primitive)
+
+let myname = "niteshyadav"
+
+let anothername = myname;
+anothername="coder"
+
+console.log(myname);
+console.log(anothername)
+
+let userone = {
+    email:"user@gmail.com",
+    upi:"user@bob"
+}
+let usertwo = userone
+
+usertwo.email = "niteshyadav@gmail.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
