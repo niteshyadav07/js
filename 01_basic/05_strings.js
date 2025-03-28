@@ -6,7 +6,7 @@ const repoCount = 10;
 
 //console.log(`hello my nam is ${name} and my repo count ${repoCount}`)
 
-const gamename = new String('nitesh');
+const gamename = new String('nitesh-v-r');
 
 // console.log(gamename[0]);
 // console.log(gamename.__proto__);
@@ -33,4 +33,9 @@ console.log(newonestr.trim());
 const url ="https://nitesh.com/nitesh%20yadav"
 
 console.log(url.replace('%20','#'))
+
+console.log(url.includes('yadav'));
+
+console.log(gamename.split('-'));
+
 
