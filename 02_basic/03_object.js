@@ -18,9 +18,30 @@ const Jsuser ={
     lastlogindays : ["monday","saturday"]
 }
 
-console.log(Jsuser.email);
-console.log(Jsuser["email"]);
-console.log(Jsuser["full name"]);
-console.log(Jsuser[mysym]);
+// console.log(Jsuser.email);
+// console.log(Jsuser["email"]);
+// console.log(Jsuser["full name"]);
+// console.log(Jsuser[mysym]);
 
 Jsuser.email = "yadav@gmail.com";
+//console.log(Jsuser);
+//Object.freeze(Jsuser);
+//console.log(Jsuser);
+
+
+Jsuser.greeting = function(){
+    console.log("hello js user");
+    
+}
+
+
+Jsuser.greeting2 = function(){
+    console.log(`hello js user, ${this.name}`);
+    
+}
+
+
+console.log(Jsuser.greeting());
+console.log(Jsuser.greeting2());
+
+
