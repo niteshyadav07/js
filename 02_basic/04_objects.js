@@ -74,4 +74,4 @@ console.log(ci);
 const navbar = ({company}) =>{
 
 };
-navbar((company = "nitesh"))
+navbar((company = "nitesh"));
