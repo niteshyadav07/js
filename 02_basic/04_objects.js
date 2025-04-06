@@ -70,8 +70,8 @@ const {courseInstructor : ci}= course;
 //console.log(cou)
 console.log(ci);
 
-
-const navbar = ({company}) =>{
-
-};
-navbar((company = "nitesh"));
+// {
+//     "name" : "nitesh",
+//     "coursename":"js in hindi",
+//     "price" : "free"
+// }
